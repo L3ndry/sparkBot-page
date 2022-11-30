@@ -1,0 +1,20 @@
+/* width - largura */
+@media (max-width: 1300px) {
+    .intro {
+        gap: 0;
+        justify-content: space-evenly !important;
+    }
+
+    .offersBlock {
+        width: 400px !important;
+        height: 550px !important;
+    }
+
+    .bodyItems span {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 850px) {
+
+}
