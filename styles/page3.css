@@ -3,16 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    --bgColor: #ebebeb;
-    --offer1: #131313;
-    --offer2: #9097ff;
+    --bgColor: #030303;
+    --offer1: #414141;
+    --offer2: #9022eb;
     --buttonsColor: linear-gradient(to top, #11E475, #fff 500%);
-    --highlightTextColor: linear-gradient(to bottom, #434bb8, #000 150%);
-    --highlightTextColor2: linear-gradient(to bottom, #1e2cf3, #000 150%);
-    --guideTextColor: #111111;
-    --offersBlockBg: #f3f3f3;
-    --costColor: #1a1a1a;
-    --footerBg: #161616;
+    --highlightTextColor: linear-gradient(to bottom, #9008ff, #000 250%);
+    --highlightTextColor2: linear-gradient(to bottom, #8c00ff, #000 250%);
+    --guideTextColor: #CFCFCF;
+    --offersBlockBg: #DCDCDC;
+    --costColor: #3E3E3E;
 }
 
 * {
@@ -36,7 +35,7 @@ body {
     position: relative;
     width: 350px;
     height: 400px;
-    background-color: #202020;
+    background-image: linear-gradient(to bottom, #171616, var(--bgColor));
 }
 
 .introBlock1 .introBlock1Text {
@@ -45,11 +44,6 @@ body {
     left: 30px;
     font-size: 2rem;
     font-weight: 800;
-}
-
-.introBlock2 {
-    background-color: #7c7c7c;
-    height: 10px;
 }
 
 .introBlock2 .sparkTitle {
@@ -61,10 +55,6 @@ body {
 
 .introBlock2 .sparkTitleText {
     font-size: 1.5rem;
-}
-
-.offers {
-    background-color: #4345a7;
 }
 
 .offers .offersBlock {
@@ -115,7 +105,7 @@ body {
 }
 
 footer {
-    background-color: var(--footerBg);
+    background-color: #202020;
     padding: 50px;
 }
 
