@@ -1,0 +1,200 @@
+/* width - largura */
+@media (max-width: 1300px) {
+    .intro {
+        gap: 0;
+        justify-content: space-evenly !important;
+    }
+
+    .offersBlock {
+        width: 400px !important;
+        height: 550px !important;
+    }
+
+    .bodyItems span {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .offersBlock {
+        width: 350px !important;
+        height: 600px !important;
+    }
+
+    .bodyItems {
+        padding: 20px;
+    }
+
+    .bodyCostText {
+        font-size: 1.7rem !important;
+    }
+
+    .bodyButton {
+        font-size: 0.8rem !important;
+    }
+
+    .sparkGuide {
+        width: 450px;
+    }
+}
+
+@media (max-width: 800px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .intro .introBlock1 {
+        width: 450px;
+        height: 500px;
+    }
+
+    .introBlock1 .introBlock1Text {
+        top: 40px;
+        left: 40px;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .offersSelect {
+        display: flex !important;
+    }
+
+    .offersBlock {
+        width: 450px !important;
+        height: 700px !important;
+    }
+
+    .offersBlock2 {
+        display: none;
+    }
+
+    .offers .offersTitle {
+        font-size: 1.7rem !important;
+    }
+
+    .bodyCostText {
+        font-size: 2rem !important;
+    }
+
+    .bodyButton {
+        font-size: 1.5rem !important;
+    }
+    
+    .warningBlock1 span {
+        font-size: 1rem !important;
+    }
+
+    .warningBlock2 span {
+        font-size: 1.3rem !important;
+    }
+
+    .others a {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .supportButton {
+        font-size: 0.7rem;
+    }
+
+    img[alt="Icon"] {
+        width: 30px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .offersBlock {
+        width: 260px !important;
+        height: 450px !important;
+        padding-bottom: 10px;
+    }
+
+    .intro .introBlock1 {
+        width: 260px;
+        height: 300px;
+    }
+
+    .introBlock1 .introBlock1Text {
+        top: 20px;
+        left: 20px;
+        font-size: 1.5rem;
+    }
+
+    .introBlock2 .sparkTitle {
+        width: 120px;
+        height: 40px;
+        background-image: var(--highlightTextColor);
+        font-size: 1.7rem;
+    }
+    
+    .introBlock2 .sparkTitleText {
+        font-size: 1.1rem;
+    }
+
+    .offers .offersTitle {
+        font-size: 1rem !important;
+    }
+
+    .offersSelect label {
+        font-size: 0.8rem;
+    }
+
+    .offersSelect select {
+        width: 80px;
+        height: 35px;
+        font-size: 0.8rem;
+    }
+
+    .bodyItems {
+        gap: 15px !important;
+    }
+    
+    .bodyItems span {
+        font-size: 0.6rem;
+    }
+
+    .bodyCostText {
+        font-size: 1.3rem !important;
+    }
+
+    .bodyButton {
+        font-size: 0.7rem !important;
+    }
+
+    .warningBlock1 span {
+        font-size: 0.5rem !important;
+    }
+
+    .warningBlock2 span {
+        font-size: 0.7rem !important;
+    }
+
+    .sparkGuide {
+        width: 250px;
+        font-size: 0.7rem;
+    }
+
+    .others a {
+        font-size: 0.6rem !important;
+    }
+}
+
+@media (max-width: 350px) {
+    footer .footerSpan1 {
+        font-size: 1rem !important;
+    }
+
+    footer .footerSpan2 {
+        font-size: 0.8rem !important;
+    }
+
+    footer button {
+        width: 220px;
+        font-size: 0.5rem !important;
+    }
+}

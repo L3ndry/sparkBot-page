@@ -116,7 +116,6 @@ footer .supportButton {
 }
 
 .offersSelect select {
-    background-color: var(--offer1);
     border: 0;
     height: 40px;
     width: 100px;
