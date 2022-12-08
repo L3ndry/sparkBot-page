@@ -12,7 +12,7 @@ function changeOffer() {
         offer1.classList.remove("d-none")
         offer1.classList.add("d-flex flex-column")
     } else if (selected === "Plano 2") {
-        label.style.background = "#E9BD21";
+        label.style.background = "#2a77ea";
         offer1.classList.add("d-none")
         offer2.style.display = "flex";
         offer2.style.flexDirection = "column";
