@@ -2,7 +2,7 @@ const label = document.querySelector('#offerChoose');
 const offer1 = document.querySelector('.offersBlock1');
 const offer2 = document.querySelector('.offersBlock2');
 
-window.onload = changeOffer();
+label.style.backgroundColor = '#444444';
 
 function changeOffer() {
     let selected = label.options[label.selectedIndex].text;
